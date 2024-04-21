@@ -90,7 +90,7 @@ export default function Services({ serRef, container }) {
             textShadow: "0px 0px 22px #000",
           }}
         >
-          Zapraszamy do naszego lokalu, który zachwyca swoją atomsfera i
+          Zapraszamy do naszego lokalu, który zachwyca swoją atomsferą i
           unoszącymi się zapachami. Niezależnie od tego jaki jest cel twojej
           wizyty, zapewniamy idealne miejsce do relaksu oraz cieszenia się
           wspanialymi smakami.

@@ -68,7 +68,9 @@ export default function Contact({ contRef }) {
           variants={variantsMenu}
         >
           <MdPlace color="white" fontSize={50} cursor={"pointer"} />
-          <motion.p className="flex text-white">ul. chlebowa 13</motion.p>
+          <motion.p className="flex text-white">
+            ul. chlebowa 13, 50-014 Wrocław
+          </motion.p>
         </motion.div>
       </motion.div>
     </motion.div>

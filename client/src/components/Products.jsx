@@ -42,7 +42,7 @@ export default function Products({ prodRef }) {
       <motion.div className="flex md:flex-row flex-col-reverse w-full h-fit bg-black justify-center items-center">
         <motion.p className="text-white custom-font text-4xl md:p-40 p-16 md:text-right">
           Zapraszamy również do degustacji naszych wyjątkowych wyrobów
-          cukierniczych
+          cukierniczych takich jak ciasta, pączki i drożdżówki
         </motion.p>
         <motion.img
           src="Sweet1.png"

@@ -10,7 +10,7 @@ export default function Services({ serRef, container }) {
     offset: ["end end", "start"],
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [152, -940]);
+  const y = useTransform(scrollYProgress, [0, 1], [110, -940]);
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "-40% " });
 

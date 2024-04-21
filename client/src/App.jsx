@@ -142,7 +142,7 @@ function App() {
           ref={container}
         >
           <MainPage mainRef={mainRef} container={container} />
-          <About aboutRef={aboutRef} />
+          <About aboutRef={aboutRef} container={container} />
           <Products prodRef={prodRef} />
           <Services serRef={serRef} container={container} />
           <Contact contRef={contRef} />

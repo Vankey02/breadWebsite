@@ -72,7 +72,7 @@ export default function About({ aboutRef, container }) {
         className="flex md:my-10 mt-4 md:text-[4rem] text-[4em] self-center items-center justify-center w-full  "
         style={{ textShadow: "#FC0 1px 0 10px" }}
       >
-        Naszi piekarze
+        Nasi piekarze
       </motion.p>
       <motion.div className="flex flex-col mt-16 justify-center w-[100vw] items-center md:text-[2.6rem] text-[1.8rem] text-[#FFFFED] md:pb-16 pb-8">
         <motion.div

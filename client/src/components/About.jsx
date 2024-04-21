@@ -11,8 +11,8 @@ export default function About({ aboutRef, container }) {
     offset: ["end end", "start"],
   });
 
-  const x1 = useTransform(scrollYProgress, [0, 1], [1452, -1000]);
-  const x2 = useTransform(scrollYProgress, [0, 1], [-1452, 1000]);
+  const x1 = useTransform(scrollYProgress, [0, 1], [1600, -850]);
+  const x2 = useTransform(scrollYProgress, [0, 1], [-1600, 850]);
 
   useEffect(() => {
     console.log("Element is in view: ", isInView);
@@ -51,15 +51,14 @@ export default function About({ aboutRef, container }) {
           },
         }}
       >
-        Od 50 lat jesteśmy aktywną piekarnią i cukiernią, tworząca historię
+        Od 46 lat jesteśmy aktywną piekarnią i cukiernią, tworząca historię
         wspaniałych wypieków i satysfakcji klientów. Pasjonujemy się pieczeniem,
-        co w polaczeniu z wieloletnim doświadczeniem, przekłada się na
-        niezawodna jakość naszego chleba i wyrobów cukierniczych.
-        Fundamentalnymi elementami Piekarenki są tradycyjne przepisy i świeże
-        składniki, co gwarantuje wyjątkowy smak i charakter naszych produktów.
-        Współpraca z nami to nie tylko delektowanie się doskonałym smakiem, ale
-        również gwarancja uwzględnienia indywidualnych potrzeb klienta oraz
-        terminowość.
+        co w połaczeniu z wieloletnim doświadczeniem, przekłada się na
+        niezawodną jakość naszego chleba i wyrobów cukierniczych. Fundamentami
+        Piekarenki są tradycyjne przepisy i świeże składniki, które gwarantują
+        wyjątkowy smak i charakter naszych produktów. Współpraca z nami to nie
+        tylko delektowanie się doskonałym smakiem, ale również gwarancja
+        uwzględnienia indywidualnych potrzeb klienta oraz terminowość.
         {/* Jesteśmy aktywną piekarnią i cukiernią, specjalizującą się w produkcji
         wysokiej jakości chleba, wypieków i słodkości. Nasza działalność
         koncentruje się na stosowaniu tradycyjnych przepisów oraz świeżych

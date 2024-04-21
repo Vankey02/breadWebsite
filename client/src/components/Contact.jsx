@@ -21,9 +21,6 @@ export default function Contact({ contRef }) {
   const ref = useRef(null);
   const isInView = useInView(ref);
 
-  useEffect(() => {
-    console.log("contact", isInView);
-  }, [isInView]);
   return (
     <motion.div
       ref={contRef}

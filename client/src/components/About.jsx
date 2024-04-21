@@ -14,9 +14,7 @@ export default function About({ aboutRef, container }) {
   const x1 = useTransform(scrollYProgress, [0, 1], [1600, -850]);
   const x2 = useTransform(scrollYProgress, [0, 1], [-1600, 850]);
 
-  useEffect(() => {
-    console.log("Element is in view: ", isInView);
-  }, [isInView]);
+  useEffect(() => {}, [isInView]);
   return (
     <motion.div
       ref={aboutRef}
@@ -83,7 +81,7 @@ export default function About({ aboutRef, container }) {
             { num: 2, name: "Mateusz" },
           ].map((item, index) => {
             return (
-              <div className="flex h-64 w-fit gap-8 justify-center">
+              <div className="flex h-64 w-fit gap-8 justify-center" key={index}>
                 <img
                   src={`Photo${item.num}.png`}
                   className="w-40 h-40 rounded-3xl"
@@ -102,7 +100,10 @@ export default function About({ aboutRef, container }) {
             { num: 4, name: "Krystian" },
           ].map((item, index) => {
             return (
-              <motion.div className="flex h-64 w-fit gap-8 justify-center">
+              <motion.div
+                className="flex h-64 w-fit gap-8 justify-center"
+                key={index}
+              >
                 <motion.img
                   src={`Photo${item.num}.png`}
                   className="w-40 h-40 rounded-3xl"

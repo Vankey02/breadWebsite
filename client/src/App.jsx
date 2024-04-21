@@ -44,23 +44,18 @@ function App() {
 
   useEffect(() => {
     contInView && setActiveSection(5);
-    console.log("contact");
   }, [contInView]);
   useEffect(() => {
     serInView && setActiveSection(4);
-    console.log("service");
   }, [serInView]);
   useEffect(() => {
     prodInView && setActiveSection(3);
-    console.log("prod");
   }, [prodInView]);
   useEffect(() => {
     mainInView && setActiveSection(1);
-    console.log("main");
   }, [mainInView]);
   useEffect(() => {
     aboutInView && setActiveSection(2);
-    console.log("about");
   }, [aboutInView]);
   const refs = [mainRef, aboutRef, prodRef, serRef, contRef];
 

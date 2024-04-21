@@ -16,9 +16,6 @@ export default function Services({ serRef, container }) {
   const ref1 = useRef(null);
   const isInView1 = useInView(ref1, { margin: "-38% " });
 
-  useEffect(() => {
-    console.log("serviece", isInView);
-  }, [isInView]);
   return (
     <motion.div className="flex flex-col w-full">
       <motion.div

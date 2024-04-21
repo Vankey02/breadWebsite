@@ -51,7 +51,7 @@ export default function About({ aboutRef, container }) {
           },
         }}
       >
-        Od 46 lat jesteśmy aktywną piekarnią i cukiernią, tworząca historię
+        Od 46 lat jesteśmy aktywną piekarnią i cukiernią, tworzącą historię
         wspaniałych wypieków i satysfakcji klientów. Pasjonujemy się pieczeniem,
         co w połaczeniu z wieloletnim doświadczeniem, przekłada się na
         niezawodną jakość naszego chleba i wyrobów cukierniczych. Fundamentami

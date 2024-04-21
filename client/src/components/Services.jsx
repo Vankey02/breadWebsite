@@ -96,7 +96,7 @@ export default function Services({ serRef, container }) {
           Zapraszamy do naszego lokalu, który zachwyca swoją atomsferą i
           unoszącymi się zapachami. Niezależnie od tego jaki jest cel twojej
           wizyty, zapewniamy idealne miejsce do relaksu oraz cieszenia się
-          wspanialymi smakami.
+          wspaniałymi smakami.
         </motion.div>
         <motion.img
           src="H.jpg"

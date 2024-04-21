@@ -14,7 +14,7 @@ export default function Services({ serRef, container }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "-40% " });
   const ref1 = useRef(null);
-  const isInView1 = useInView(ref1, { margin: "-10% " });
+  const isInView1 = useInView(ref1, { margin: "-38% " });
 
   useEffect(() => {
     console.log("serviece", isInView);
@@ -80,8 +80,11 @@ export default function Services({ serRef, container }) {
         className="flex relative h-[140vh] w-full bg-black justify-center"
         ref={ref1}
       >
-        <motion.div className="absolute top-10 text-white custom-font md:text-[4rem] text-[2rem] z-20">
-          Odwiedź nasz przytulny lokal
+        <motion.div
+          className="absolute top-10 text-white custom-font md:text-[4rem] text-[2rem] z-20"
+          style={{ textShadow: "#FC0 1px 0 10px" }}
+        >
+          Odwiedź nasz przytulny lokal!
         </motion.div>
 
         <motion.div

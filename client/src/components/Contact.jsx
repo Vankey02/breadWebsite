@@ -31,7 +31,7 @@ export default function Contact({ contRef }) {
     >
       <motion.h1 className="flex text-white text-6xl">Masz pytania?</motion.h1>
       <motion.h1 className="flex text-white text-4xl">
-        Napisz lub zadzwon!
+        Napisz lub zadzwoń!
       </motion.h1>
       <motion.div
         ref={ref}
